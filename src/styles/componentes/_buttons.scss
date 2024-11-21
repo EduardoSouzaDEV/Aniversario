@@ -1,0 +1,12 @@
+.button {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    &--primary {
+        background-color: #4F2AC3;
+        font-size: 18px;
+        font-weight: 700;
+    }
+}

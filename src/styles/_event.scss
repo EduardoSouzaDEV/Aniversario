@@ -1,0 +1,47 @@
+@use "./variables";
+
+.event {
+    padding: 80px 0;
+
+    &--comidas {
+        background-image: linear-gradient(variables.$blue1, variables.$blue2);
+    }
+
+    &--fogueira {
+        background-image: linear-gradient(variables.$blue2, variables.$pink);
+    }
+
+    &--dança {
+        background-image: linear-gradient(variables.$pink, variables.$yellow);
+    }
+
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+    }
+
+    &__details {
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        &__description {
+            font-size: 16px;
+            line-height: 22px;
+        }
+    }
+
+    &__image {
+        height: 196px;
+        width: 360px;
+    }
+}

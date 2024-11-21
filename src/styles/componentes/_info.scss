@@ -1,0 +1,23 @@
+.info-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+    padding: 16px 24px;
+    position: relative;
+
+    &__info {
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            color: #000;
+
+            b {
+                font-size: 18px;
+                display: block;
+                color: #000;
+            }
+        }
+    }
+}

@@ -1,0 +1,2 @@
+const e=new Date("Jun 21, 2025 19:00:00").getTime(),o=setInterval(function(){let n=e-new Date().getTime(),t=Math.floor(n/864e5),l=Math.floor(n%864e5/36e5),a=Math.floor(n%36e5/6e4),r=Math.floor(n%6e4/1e3);console.log(t),console.log(l),console.log(a),console.log(r),document.getElementById("contador").innerHTML=`${t}d ${l}h ${a}m ${r}s`,n<0&&(clearInterval(o),document.getElementById("contador").innerHTML="Evento inspirado")},1e3);
+//# sourceMappingURL=index.44b3f55a.js.map
